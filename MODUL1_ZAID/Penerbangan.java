@@ -8,7 +8,6 @@ public class Penerbangan {
     private String waktuKedatangan;
     private float hargaTiket;
 
-    // Constructor
     public Penerbangan(String nomorPenerbangan, String bandaraKeberangkatan, String bandaraTujuan, 
                        String waktuKeberangkatan, String waktuKedatangan, float hargaTiket) {
         this.nomorPenerbangan = nomorPenerbangan;
@@ -27,7 +26,6 @@ public class Penerbangan {
         return hargaTiket;
     }
 
-    // Method untuk menampilkan detail penerbangan
     public void tampilkanDetailPenerbangan() {
         System.out.println("Nomor Penerbangan: " + nomorPenerbangan);
         System.out.println("Bandara Keberangkatan: " + bandaraKeberangkatan + 
