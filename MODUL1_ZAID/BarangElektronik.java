@@ -1,3 +1,5 @@
+package MODUL1_ZAID;
+
 public class BarangElektronik extends Barang {
         private String garansi;
     

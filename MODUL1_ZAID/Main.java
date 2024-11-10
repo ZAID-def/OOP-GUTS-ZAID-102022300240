@@ -1,3 +1,5 @@
+package MODUL1_ZAID;
+
 import java.util.Scanner;
 
 public class Main {

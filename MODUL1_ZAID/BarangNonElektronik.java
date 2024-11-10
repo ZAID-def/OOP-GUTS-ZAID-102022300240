@@ -1,3 +1,4 @@
+package MODUL1_ZAID;
 public class BarangNonElektronik extends Barang {
     private String material;
     public BarangNonElektronik(String nama, int jumlah, double harga, String material) {

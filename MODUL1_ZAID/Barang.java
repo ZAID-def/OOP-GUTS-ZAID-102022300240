@@ -1,3 +1,4 @@
+package MODUL1_ZAID;
 public class Barang {
         private String nama;
         private int jumlah;

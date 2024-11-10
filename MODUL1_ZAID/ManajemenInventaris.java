@@ -1,5 +1,7 @@
+package MODUL1_ZAID;
 import java.util.ArrayList;
 import java.util.Scanner;
+
 
 public class ManajemenInventaris {
     private ArrayList<Barang> daftarBarang;
