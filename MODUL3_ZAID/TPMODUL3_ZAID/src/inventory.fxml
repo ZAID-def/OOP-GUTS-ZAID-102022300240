@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.AlbumController">
+   <children>
+      <TableView layoutX="22.0" layoutY="105.0" prefHeight="189.0" prefWidth="305.0">
+        <columns>
+            <TableColumn fx:id="albumTableView" prefWidth="75.0" text="Available" />
+            <TableColumn fx:id="availableColumn" prefWidth="75.0" text="Total" />
+          <TableColumn fx:id="artistColumn" prefWidth="47.333343505859375" text="Artist" />
+          <TableColumn fx:id="albumNameColumn" prefWidth="103.33331298828125" text="Album Name" />
+        </columns>
+      </TableView>
+      <TextField fx:id="judulAlbumField" layoutX="347.0" layoutY="122.0" prefHeight="25.0" prefWidth="196.0" />
+      <Text layoutX="347.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Judul Album" wrappingWidth="68.8033447265625" />
+      <TextField fx:id="namaArtisField" layoutX="347.0" layoutY="174.0" prefHeight="25.0" prefWidth="196.0" />
+      <TextField fx:id="jumlahTotalField" layoutX="347.0" layoutY="223.0" prefHeight="25.0" prefWidth="196.0" />
+      <TextField fx:id="jumlahRentedField" layoutX="347.0" layoutY="275.0" prefHeight="25.0" prefWidth="196.0" />
+      <Text layoutX="347.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Artis" wrappingWidth="68.8033447265625" />
+      <Text layoutX="347.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jumlah Total" wrappingWidth="68.8033447265625" />
+      <Text layoutX="347.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jumlah Rented" wrappingWidth="82.13665771484375" />
+      <Text layoutX="270.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zepp's Lintening Bar" wrappingWidth="114.13665771484375" />
+      <Button fx:id="tambahUpdate" layoutX="503.0" layoutY="333.0" mnemonicParsing="false" text="Update" />
+      <Button fx:id="tombolTambah" layoutX="419.0" layoutY="333.0" mnemonicParsing="false" text="Tambah" />
+      <Button fx:id="tombolHapus" layoutX="328.0" layoutY="333.0" mnemonicParsing="false" text="Hapus" />
+      <Button fx:id="tombolRentSelected" layoutX="38.0" layoutY="333.0" mnemonicParsing="false" text="Rent Selected" />
+   </children>
+</AnchorPane>
